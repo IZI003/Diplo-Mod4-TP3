@@ -1,6 +1,7 @@
 import Headers from "../components/Headers";
 import ProductList from "../components/ProductList";
 import CartModal from "../components/CartModal";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -11,7 +12,9 @@ const Home = () => {
       <Headers/>
       <ProductList/>
       <CartModal/>
+      <Footer/>
     </div>
+
   );
 };
 
