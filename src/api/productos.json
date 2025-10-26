@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Laptop", "price": 1000, "img": "https://picsum.photos/200?1" },
+  { "id": 2, "name": "Auriculares", "price": 200, "img": "https://picsum.photos/200?2" },
+  { "id": 3, "name": "Mouse", "price": 50, "img": "https://picsum.photos/200?3" },
+  { "id": 4, "name": "Teclado", "price": 150, "img": "https://picsum.photos/200?4" },
+  { "id": 5, "name": "Monitor", "price": 800, "img": "https://picsum.photos/200?5" }
+]

@@ -1,10 +1,21 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+import App from "./App.jsx";
+import "./theme.css";
 
-createRoot(document.getElementById('root')).render(
+import { CartProvider } from "./context/CartContext.jsx";
+import { ThemeProvider } from "./context/ThemeContext.jsx";
+import { ModalProvider } from './context/ModalContext.jsx';
+ 
+createRoot(document.getElementById("root")).render(
+   
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    <ThemeProvider>
+      <ModalProvider>
+        <CartProvider>
+          <App />
+        </CartProvider>
+      </ModalProvider>
+    </ThemeProvider>
+  </StrictMode>
+);
